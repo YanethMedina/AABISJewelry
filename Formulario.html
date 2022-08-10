@@ -1,0 +1,156 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+	<title>AABIS Jewelry</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Estilos/Estilos2.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<aside id="lateral">
+		<img src="Imagenes/millie1.jpg" id="millie1" width="50px">
+		<img src="Imagenes/Logo.JPG" id="Logo" width="50px">
+		<header id="titulo">
+        <header id="subtitulo"><b><i>"Luce elegante, luce genial"</i></b></header>
+    </header>
+	</aside>
+	<div id="Contenido">
+	<section id="desplegables">
+    <main>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<header>
+  		<div class="btn-group" role="group">
+        <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Inicio</button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <a class="dropdown-item" href="index.html">Mejores valorados</a>
+            <a class="dropdown-item" href="index.html">Categorías</a>
+            <a class="dropdown-item" href="index.html">Colecciones</a>
+            <a class="dropdown-item" href="index.html">Reseñas</a>
+            <a class="dropdown-item" href="index.html">Nuestros clientes</a>
+        </div>
+      </div>
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Productos</button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <a class="dropdown-item" href="Productos.html">Necklaces</a>
+            <a class="dropdown-item" href="Productos.html">Earrings</a>
+            <a class="dropdown-item" href="Productos.html"">Bracelets</a>
+            <a class="dropdown-item" href="Productos.html">Rings</a>
+        </div>
+      </div>
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Personalizado</button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <a class="dropdown-item" href="Personalizado.html">Necklaces</a>
+            <a class="dropdown-item" href="Personalizado.html">Esclavas/Bracelets</a>
+            <a class="dropdown-item" href="Personalizado.html">Earrings</a>
+            <a class="dropdown-item" href="Personalizado.html">Rings</a>
+        </div>
+      </div>
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Nosotros</button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <a class="dropdown-item" href="Nosotros.html">historia</a>
+            <a class="dropdown-item" href="Nosotros.html">Productos</a>
+            <a class="dropdown-item" href="Nosotros.html">Procesos</a>
+        </div>
+      </div>
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Contacto</button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <a class="dropdown-item" href="Formulario.html">Formulario</a>
+        </div>
+      </div>
+  </div>
+</section>
+	<section id="seccion">
+        <h1>Formulario de contacto</h1>
+        <h3>Nos encantaría saber de tí! </h3>
+        <h5>
+            Llena la siguiente forma y nos contactamos contigo lo antes posible!</h5>
+		<form class="contacto" action="" method=post name="contacto">
+            <ul>
+                <li>
+                    <label>Nombre: </label>
+                    <input type="text" name="Nombre" placeholder="Name">
+                </li>
+                <li>
+                    <label>Apellidos:  </label>
+                    <input type="text" name="Correo" placeholder="Apellidos">
+                </li>
+                <li>
+                    <label>Correo Electronico</label>
+                    <input type="email" name="Correo" placeholder="E-Mail">
+                </li>
+                <li>
+                    <label>Password</label>
+                    <input type="password" name="Contrasenia" placeholder="Contraseña">
+                </li>
+                <li>
+                    <label>Fecha </label>
+                    <input type="date" name="Fecha">
+                </li>
+                <li>
+                    <label>Calificacion</label>
+                    <input type="number" name="Numero" min="1" max="100" placeholder="Puntuación">
+                </li>
+                <li>
+                    <label for="sitio">Puntuacion</label>
+                    <input type="range">
+                    <progress value="50" max="100">5</progress>
+                </li>
+                <li>
+                    <label form="mensaje">Mensajes</label>
+                    <textarea class="mensaje" placeholder="Escriba aqui su comentario o reseña"></textarea>
+                </li>
+                <li>
+                    <button class="envia" type="submit">Enviar</button>
+                    <button class="borra" type="reset">Borrar</button>
+                    <button class="inicia" type="button" href="index.html">Inicio</button>
+                </li>
+            </ul>
+        </form>
+	</section>
+		<footer id="pie">
+			<div id="Izquierda">
+				<ul>SOPORTE</ul>
+				<ul>PREGUNTAS FRECUENTES</ul>
+				<ul>MAYOREO</ul>
+				<ul>CUIDADOS DEL PRODUCTO</ul>
+				<ul>CAMBIOS Y DEVOLUCIONES</ul>
+				<ul>POLÍTICAS DE PRIVACIDAD</ul>
+			</div>
+			<div id="Derecha">
+				<ul>CONTACTO</ul>
+				<ul>TEL: 462 653 8474</ul>
+				<ul>CORREO: aabisjewelry@gmail.com</ul>
+				<ul></ul>
+				<ul>VISÍTANOS</ul>
+				<ul>IRAPUATO GTO. ZONA CENTRO</ul>
+				<ul id="Boton">
+					<a button type="button" href="index.html">Volver</a button>
+				</ul>
+			</div>
+			<div id="Centro">
+				<h4>SE PARTE DE NUESTRA COMUNIDAD!</h4>
+				<h6>Te avisaremos de las nuevas colecciones antes que nadie y recibe ofertas especiales!!!</h6>
+					<input type="email" name="Correo" placeholder="E-Mail" id="mail"><button class="envia" type="submit">Enviar</button>
+					
+			</div>
+			<div id="der">Derechos reservados &copy; AABIS Jewelry</div>
+		</footer>
+	</div>
+	</body>
+	</html>
+	<body>	
+	</main>
+</body>
+</html>
